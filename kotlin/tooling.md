@@ -4,7 +4,8 @@
 
 定位问题、分析性能和统一代码规范。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
@@ -12,6 +13,7 @@
 | [LeakCanary](#leakcanary) | 检测 Android 对象与组件的内存泄漏 | 29,999 | 近期有提交 |
 | [detekt](#detekt) | Kotlin 静态分析与复杂度检查 | 7,071 | 近期有提交 |
 | [ktlint](#ktlint) | Kotlin 格式检查与自动修正 | 6,747 | 近期有提交 |
+| [Timber](#timber) | Android 日志入口与输出树 | 10,852 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -54,6 +56,16 @@
 [源码](https://github.com/ktlint/ktlint) · [官方文档](https://ktlint.github.io/ktlint/) · [安装入口](https://github.com/ktlint/ktlint#quick-start)
 
 <sub>默认分支最近提交：2026-09-26 · [近期有提交](https://github.com/ktlint/ktlint/commit/9dbe17d9e1b3b18f07d76bdd34bee0020ab05d02) · 版本与许可证见上游仓库。</sub>
+
+## Timber
+
+**适合**：统一应用日志调用与不同环境输出。
+
+**选型提醒**：只是日志基础库，上传、检索和脱敏需要另行设计。
+
+[源码](https://github.com/JakeWharton/timber) · [官方文档](https://github.com/JakeWharton/timber#readme) · [安装入口](https://github.com/JakeWharton/timber#readme)
+
+<sub>默认分支最近提交：2026-09-18 · [近期有提交](https://github.com/JakeWharton/timber/commit/55b54775e7ecc003efb75116de7721048483a56f) · 版本与许可证见上游仓库。</sub>
 
 ---
 

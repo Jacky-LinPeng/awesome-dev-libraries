@@ -4,12 +4,14 @@
 
 HybridCLR 面向 C# 代码热更新；xLua 面向 Lua 与 C# 互操作。先决定业务语言和构建管线。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [HybridCLR](#hybridclr) | 扩展 Unity IL2CPP 的 C# 热更新能力 | 7,982 | 近期有提交 |
 | [xLua](#xlua) | Unity/C# 与 Lua 的互操作 | 10,199 | 近期有提交 |
+| [ILRuntime](#ilruntime) | Unity C# IL 解释执行 | 3,090 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -32,6 +34,16 @@ HybridCLR 面向 C# 代码热更新；xLua 面向 Lua 与 C# 互操作。先决�
 [源码](https://github.com/Tencent/xLua) · [官方文档](https://github.com/Tencent/xLua#readme) · [安装入口](https://github.com/Tencent/xLua#安装)
 
 <sub>默认分支最近提交：2025-11-21 · [近期有提交](https://github.com/Tencent/xLua/commit/59bf42685dbe36fe0e1678a6ba8597f859ef7ca3) · 版本与许可证见上游仓库。</sub>
+
+## ILRuntime
+
+**适合**：维护既有 ILRuntime 热更新工程。
+
+**选型提醒**：与 HybridCLR 的技术路线不同，需评估绑定、AOT 与性能成本。
+
+[源码](https://github.com/Ourpalm/ILRuntime) · [官方文档](https://github.com/Ourpalm/ILRuntime#readme) · [安装入口](https://github.com/Ourpalm/ILRuntime#readme)
+
+<sub>默认分支最近提交：2026-07-24 · [近期有提交](https://github.com/Ourpalm/ILRuntime/commit/482cb88c114d493f7acacf07e06f6b9e020b43f0) · 版本与许可证见上游仓库。</sub>
 
 ---
 

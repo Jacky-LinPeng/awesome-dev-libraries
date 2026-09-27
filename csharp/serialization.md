@@ -4,12 +4,14 @@
 
 JSON、二进制数据和类型化模型。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [MessagePack for C#](#messagepack-for-c) | 二进制序列化 | 6,789 | 近期有提交 |
 | [Json.NET](#jsonnet) | JSON 序列化、解析与对象转换 | 11,316 | 近期有提交 |
+| [MemoryPack](#memorypack) | .NET 二进制序列化与生成代码 | 4,739 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -32,6 +34,16 @@ JSON、二进制数据和类型化模型。
 [源码](https://github.com/JamesNK/Newtonsoft.Json) · [官方文档](https://www.newtonsoft.com/json/help) · [安装入口](https://github.com/JamesNK/Newtonsoft.Json#readme)
 
 <sub>默认分支最近提交：2026-09-21 · [近期有提交](https://github.com/JamesNK/Newtonsoft.Json/commit/52fa3aef1f2cadcd3a3f874251eddc98d3efbbaa) · 版本与许可证见上游仓库。</sub>
+
+## MemoryPack
+
+**适合**：需要评估二进制数据格式的 C# 工程。
+
+**选型提醒**：Unity 有独立兼容条件；格式演进和跨语言需求应先确认。
+
+[源码](https://github.com/Cysharp/MemoryPack) · [官方文档](https://github.com/Cysharp/MemoryPack#readme) · [安装入口](https://github.com/Cysharp/MemoryPack#installation)
+
+<sub>默认分支最近提交：2026-07-08 · [近期有提交](https://github.com/Cysharp/MemoryPack/commit/85ab9ad76c380aca48c09ff3a0ad955ee5a2902b) · 版本与许可证见上游仓库。</sub>
 
 ---
 

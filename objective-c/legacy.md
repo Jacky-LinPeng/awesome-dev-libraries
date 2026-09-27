@@ -4,7 +4,8 @@
 
 > 本页用于识别旧依赖和安排迁移。已归档、已弃用与长期低频更新分别标注；这些条目不进入新项目速查路线。
 
-## 快速选择
+
+## 历史维护 · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
@@ -13,6 +14,9 @@
 | [AFNetworking](#afnetworking) | 历史主流 Objective-C 网络封装 | 33,371 | 已归档 |
 | [YYKit](#yykit) | 图片、文本、缓存与模型等工具集合 | 13,965 | 更新较久 |
 | [YYModel](#yymodel) | JSON 与 Objective-C 模型互转 | 4,345 | 更新较久 |
+| [YTKNetwork](#ytknetwork) | 基于请求对象的 iOS 网络层封装 | 6,540 | 更新较久 |
+| [YYText](#yytext) | 富文本排版与交互 | 8,863 | 更新较久 |
+| [GPUImage](#gpuimage) | 基于 OpenGL ES 的图像与视频滤镜 | 20,290 | 更新较久 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -65,6 +69,36 @@
 [源码](https://github.com/ibireme/YYModel) · [官方文档](https://github.com/ibireme/YYModel#readme) · [安装入口](https://github.com/ibireme/YYModel#installation)
 
 <sub>默认分支最近提交：2017-08-06 · [更新较久](https://github.com/ibireme/YYModel/commit/1230e605c1abdcd34bf0adb371d89783ff39a856) · 版本与许可证见上游仓库。</sub>
+
+## YTKNetwork
+
+**适合**：已有 Objective-C 请求模型与缓存需求的工程。
+
+**选型提醒**：官方 README 说明依赖 AFNetworking，而后者已弃用并归档；现有工程需评估底层依赖迁移。
+
+[源码](https://github.com/kanyun-inc/YTKNetwork) · [官方文档](https://github.com/kanyun-inc/YTKNetwork#readme) · [安装入口](https://github.com/kanyun-inc/YTKNetwork#installation)
+
+<sub>默认分支最近提交：2021-04-09 · [更新较久](https://github.com/kanyun-inc/YTKNetwork/commit/4fe59c2c130eb06c0cc0cbad9e82c61e95c0d359) · 版本与许可证见上游仓库。</sub>
+
+## YYText
+
+**适合**：维护复杂富文本或旧 YYText 页面。
+
+**选型提醒**：上游更新较久，先核对当前 iOS 和文本输入行为。
+
+[源码](https://github.com/ibireme/YYText) · [官方文档](https://github.com/ibireme/YYText#readme) · [安装入口](https://github.com/ibireme/YYText#installation)
+
+<sub>默认分支最近提交：2017-08-06 · [更新较久](https://github.com/ibireme/YYText/commit/7bd2aa41414736f6451241725778509fe75860b5) · 版本与许可证见上游仓库。</sub>
+
+## GPUImage
+
+**适合**：维护已有 GPUImage 的图像处理管线。
+
+**选型提醒**：属于旧图形技术路线，新项目先评估 Metal 或系统图像框架。
+
+[源码](https://github.com/BradLarson/GPUImage) · [官方文档](https://github.com/BradLarson/GPUImage#readme) · [安装入口](https://github.com/BradLarson/GPUImage#readme)
+
+<sub>默认分支最近提交：2016-05-26 · [更新较久](https://github.com/BradLarson/GPUImage/commit/167b0389bc6e9dc4bb0121550f91d8d5d6412c53) · 版本与许可证见上游仓库。</sub>
 
 ---
 

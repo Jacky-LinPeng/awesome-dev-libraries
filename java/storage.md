@@ -4,7 +4,8 @@
 
 MyBatis 偏向手写 SQL，MyBatis-Plus 增强其 CRUD；Hibernate 偏向 ORM。HikariCP 是连接池，可与这些方案配合。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|

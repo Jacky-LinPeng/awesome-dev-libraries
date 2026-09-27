@@ -4,7 +4,8 @@
 
 模型驱动选 GORM；手写 SQL 比较 sqlx 与 sqlc；使用 PostgreSQL 原生能力看 pgx。数据库迁移单独管理。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
@@ -13,6 +14,7 @@
 | [pgx](#pgx) | PostgreSQL 驱动与工具 | 14,272 | 近期有提交 |
 | [sqlc](#sqlc) | 从 SQL 生成类型化数据访问代码 | 18,326 | 近期有提交 |
 | [golang-migrate](#golang-migrate) | 按版本执行数据库迁移 | 18,942 | 近期有提交 |
+| [Ent](#ent) | 类型化实体与数据访问代码生成 | 17,205 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -65,6 +67,16 @@
 [源码](https://github.com/golang-migrate/migrate) · [官方文档](https://github.com/golang-migrate/migrate/blob/master/GETTING_STARTED.md) · [安装入口](https://github.com/golang-migrate/migrate#getting-started)
 
 <sub>默认分支最近提交：2026-09-09 · [近期有提交](https://github.com/golang-migrate/migrate/commit/504568a3cbd23b8754760f55a3d89aec1b0c4963) · 版本与许可证见上游仓库。</sub>
+
+## Ent
+
+**适合**：偏好 schema 建模与生成式 ORM 的服务。
+
+**选型提醒**：代码生成与迁移流程需纳入项目构建。
+
+[源码](https://github.com/ent/ent) · [官方文档](https://github.com/ent/ent#readme) · [安装入口](https://github.com/ent/ent#quick-installation)
+
+<sub>默认分支最近提交：2026-09-04 · [近期有提交](https://github.com/ent/ent/commit/ca15d75bec2b916ec8ca9ff0a13d3440e8483693) · 版本与许可证见上游仓库。</sub>
 
 ---
 

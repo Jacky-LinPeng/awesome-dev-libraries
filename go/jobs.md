@@ -4,13 +4,16 @@
 
 Asynq 是有外部存储的任务队列；cron 在进程内定时；ants 控制任务并发，三者不可互相替代。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [Asynq](#asynq) | 基于 Redis 的后台任务队列 | 13,742 | 近期有提交 |
 | [cron](#cron) | 进程内定时任务调度 | 14,189 | 更新较久 |
 | [ants](#ants) | 可复用 goroutine 池 | 14,512 | 近期有提交 |
+| [gocron](#gocron) | Go 定时任务与调度管理 | 7,169 | 近期有提交 |
+| [conc](#conc) | 结构化 goroutine 并发工具 | 10,431 | 更新较久 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -43,6 +46,26 @@ Asynq 是有外部存储的任务队列；cron 在进程内定时；ants 控制�
 [源码](https://github.com/panjf2000/ants) · [官方文档](https://github.com/panjf2000/ants#readme) · [安装入口](https://github.com/panjf2000/ants#-how-to-install)
 
 <sub>默认分支最近提交：2026-09-19 · [近期有提交](https://github.com/panjf2000/ants/commit/c101e307893f9246aaabc078c8cddaff8884eaec) · 版本与许可证见上游仓库。</sub>
+
+## gocron
+
+**适合**：比基础 cron 表达式更丰富的调度需求。
+
+**选型提醒**：多实例执行仍需考虑分布式协调与幂等性。
+
+[源码](https://github.com/go-co-op/gocron) · [官方文档](https://github.com/go-co-op/gocron#readme) · [安装入口](https://github.com/go-co-op/gocron#quick-start)
+
+<sub>默认分支最近提交：2026-07-17 · [近期有提交](https://github.com/go-co-op/gocron/commit/cc444c2a6f2cb66b51ef180940de6398d1f9a10d) · 版本与许可证见上游仓库。</sub>
+
+## conc
+
+**适合**：并行执行、错误收集和任务生命周期控制。
+
+**选型提醒**：先判断标准库并发原语是否足够。
+
+[源码](https://github.com/sourcegraph/conc) · [官方文档](https://github.com/sourcegraph/conc#readme) · [安装入口](https://github.com/sourcegraph/conc#readme)
+
+<sub>默认分支最近提交：2024-01-21 · [更新较久](https://github.com/sourcegraph/conc/commit/5f936abd7ae87036af1f75c95fb9d0daaf00116b) · 版本与许可证见上游仓库。</sub>
 
 ---
 

@@ -6,7 +6,7 @@
 
 Swift · Objective-C · Kotlin · Java · Go · Dart · C#
 
-**7 种语言**　/　**118 个选型入口**　/　**13 个历史条目**
+**7 种语言**　/　**224 个选型入口**　/　**18 个历史条目**
 
 </div>
 
@@ -14,19 +14,21 @@ Swift · Objective-C · Kotlin · Java · Go · Dart · C#
 
 面向 iOS、Android、Flutter、Unity 与服务端开发的中文导航。每个条目提供用途、适用场景、选型提醒，以及源码、官方文档和安装入口。
 
-> **首版核验：2026-09-27** · 收录条目的仓库均达到 **3,000 Star**，优先考虑 5,000 以上项目。Star 与维护状态均有来源可查。[查看筛选标准](research/README.md)
+> **扩充核验：2026-09-27** · **高 Star 主清单 ≥ 3,000**；低于门槛的生态常用组件另列补充，并提供使用量或官方集成依据。[查看筛选标准](research/README.md)
+
+**[本次新增与数量对比](research/expansion.md)** · **[生态补充依据](research/supplements.md)**
 
 ## 选择语言
 
-| 语言 | 主要平台 | 去哪里找 | 选型 / 历史 |
+| 语言 | 主要平台 | 去哪里找 | 高 Star / 补充 / 历史 |
 |---|---|---|---:|
-| **[Swift](swift/README.md)** | iOS / Apple 平台 | 网络、图片、UI、数据库与工程质量 | 18 / 0 |
-| **[Objective-C](objective-c/README.md)** | iOS / 混编与旧项目 | 图片、数据库、日志、调试与迁移 | 5 / 5 |
-| **[Kotlin](kotlin/README.md)** | Android / Kotlin Multiplatform | 网络、协程、依赖注入、媒体与测试 | 18 / 3 |
-| **[Java](java/README.md)** | Android / JVM 服务端 | Android 图片、Web、数据库、缓存与测试 | 20 / 1 |
-| **[Go](go/README.md)** | 服务端 / CLI | Web、微服务、数据库、任务与可观测性 | 27 / 1 |
-| **[Dart](dart/README.md)** | Flutter | 网络、状态管理、路由、存储与平台能力 | 12 / 2 |
-| **[C#](csharp/README.md)** | Unity / .NET | 异步、资源、热更新、联网与编辑器工具 | 18 / 1 |
+| **[Swift](swift/README.md)** | iOS / Apple 平台 | 网络、图片、UI、数据库与工程质量 | 32 / 0 / 0 |
+| **[Objective-C](objective-c/README.md)** | iOS / 混编与旧项目 | 图片、数据库、日志、调试与迁移 | 14 / 0 / 8 |
+| **[Kotlin](kotlin/README.md)** | Android / Kotlin Multiplatform | 网络、协程、依赖注入、媒体与测试 | 27 / 0 / 3 |
+| **[Java](java/README.md)** | Android / JVM 服务端 | Android 图片、Web、数据库、缓存与测试 | 37 / 3 / 1 |
+| **[Go](go/README.md)** | 服务端 / CLI | Web、微服务、数据库、任务与可观测性 | 45 / 0 / 2 |
+| **[Dart](dart/README.md)** | Flutter | 网络、状态管理、路由、存储与平台能力 | 16 / 20 / 2 |
+| **[C#](csharp/README.md)** | Unity / .NET | 异步、资源、热更新、联网与编辑器工具 | 27 / 3 / 2 |
 
 ## 按当前任务直达
 

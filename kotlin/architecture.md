@@ -4,13 +4,16 @@
 
 协程负责异步；Koin 与 Dagger/Hilt 负责依赖组织，后两者按团队约定择一。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [kotlinx.coroutines](#kotlinxcoroutines) | 协程、结构化并发与 Flow | 13,815 | 近期有提交 |
 | [Koin](#koin) | 面向 Kotlin 的依赖注入 | 10,022 | 近期有提交 |
 | [Dagger / Hilt](#dagger--hilt) | 编译期依赖注入与 Android 生命周期集成 | 17,701 | 近期有提交 |
+| [Arrow](#arrow) | Kotlin 函数式数据类型与错误处理 | 6,582 | 近期有提交 |
+| [Mavericks](#mavericks) | Android 状态与异步业务组织 | 5,928 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -43,6 +46,26 @@
 [源码](https://github.com/google/dagger) · [官方文档](https://dagger.dev) · [安装入口](https://github.com/google/dagger#installation)
 
 <sub>默认分支最近提交：2026-09-26 · [近期有提交](https://github.com/google/dagger/commit/cf791f362d4d0379b8a6ecee7f80770aba25bec1) · 版本与许可证见上游仓库。</sub>
+
+## Arrow
+
+**适合**：团队希望使用类型化错误与函数式组合。
+
+**选型提醒**：引入前统一团队写法，避免与现有业务模型重复抽象。
+
+[源码](https://github.com/arrow-kt/arrow) · [官方文档](https://github.com/arrow-kt/arrow#readme) · [安装入口](https://github.com/arrow-kt/arrow#readme)
+
+<sub>默认分支最近提交：2026-09-21 · [近期有提交](https://github.com/arrow-kt/arrow/commit/e28d8dd5a4c8ed1ad9380f61a3eada408dbffbfd) · 版本与许可证见上游仓库。</sub>
+
+## Mavericks
+
+**适合**：希望统一状态容器和 ViewModel 模式的团队。
+
+**选型提醒**：框架约定较强，应与现有状态体系统一。
+
+[源码](https://github.com/airbnb/mavericks) · [官方文档](https://github.com/airbnb/mavericks#readme) · [安装入口](https://github.com/airbnb/mavericks#installation)
+
+<sub>默认分支最近提交：2026-09-25 · [近期有提交](https://github.com/airbnb/mavericks/commit/88bab77829c946ee57fe2645ea51ef1fc9d5974a) · 版本与许可证见上游仓库。</sub>
 
 ---
 

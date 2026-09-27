@@ -4,7 +4,8 @@
 
 Android REST 常见组合是 Retrofit + OkHttp；跨平台 Kotlin 网络层再评估 Ktor Client。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|

@@ -4,7 +4,8 @@
 
 保留 net/http 接口看 chi；完整 API 框架比较 Gin 与 Echo；Fiber 需额外验证 fasthttp 的接口差异。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|

@@ -4,12 +4,14 @@
 
 测试组织、断言、Mock 和集成验证。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [Quick](#quick) | 行为驱动的测试组织框架 | 9,828 | 近期有提交 |
 | [Nimble](#nimble) | 可读性较好的测试断言与异步匹配 | 4,840 | 近期有提交 |
+| [SnapshotTesting](#snapshottesting) | 界面、数据与文本的快照测试 | 4,346 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -32,6 +34,16 @@
 [源码](https://github.com/Quick/Nimble) · [官方文档](https://quick.github.io/Nimble) · [安装入口](https://github.com/Quick/Nimble#installing-nimble)
 
 <sub>默认分支最近提交：2026-05-04 · [近期有提交](https://github.com/Quick/Nimble/commit/727f75d91a0f7501d08d938966d17e6728b76a2a) · 版本与许可证见上游仓库。</sub>
+
+## SnapshotTesting
+
+**适合**：验证 UI 外观和稳定的序列化输出。
+
+**选型提醒**：需要管理参考快照；环境差异可能导致无关差异。
+
+[源码](https://github.com/pointfreeco/swift-snapshot-testing) · [官方文档](https://github.com/pointfreeco/swift-snapshot-testing#readme) · [安装入口](https://github.com/pointfreeco/swift-snapshot-testing#installation)
+
+<sub>默认分支最近提交：2026-09-21 · [近期有提交](https://github.com/pointfreeco/swift-snapshot-testing/commit/28e5de025e3fd98991791bfbf83023ab3708da03) · 版本与许可证见上游仓库。</sub>
 
 ---
 

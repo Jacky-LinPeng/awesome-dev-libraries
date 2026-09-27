@@ -4,12 +4,14 @@
 
 定位问题、分析性能和统一代码规范。
 
-## 快速选择
+
+## 高 Star · 速查
 
 | 库 | 主要用途 | Star¹ | 状态² |
 |---|---|---:|---|
 | [SwiftLint](#swiftlint) | 检查 Swift 风格与部分易错写法 | 19,745 | 近期有提交 |
 | [SwiftFormat](#swiftformat) | 自动格式化 Swift 代码 | 8,928 | 近期有提交 |
+| [Pulse](#pulse) | 应用内网络与日志查看 | 7,227 | 近期有提交 |
 
 ¹ 仓库 Star，核验日期 **2026-09-27**；多包仓库共享总数。² 状态定义见 [核验说明](../research/README.md#状态如何理解)。
 
@@ -32,6 +34,16 @@
 [源码](https://github.com/nicklockwood/SwiftFormat) · [官方文档](https://github.com/nicklockwood/SwiftFormat#readme) · [安装入口](https://github.com/nicklockwood/SwiftFormat#how-do-i-install-it)
 
 <sub>默认分支最近提交：2026-09-16 · [近期有提交](https://github.com/nicklockwood/SwiftFormat/commit/173d2cb252474cd8e8baeaf13636f5d565408ec9) · 版本与许可证见上游仓库。</sub>
+
+## Pulse
+
+**适合**：iOS 调试接口请求与诊断日志。
+
+**选型提醒**：按构建环境控制采集内容，避免记录敏感请求字段。
+
+[源码](https://github.com/kean/Pulse) · [官方文档](https://github.com/kean/Pulse#readme) · [安装入口](https://github.com/kean/Pulse#getting-started)
+
+<sub>默认分支最近提交：2026-08-15 · [近期有提交](https://github.com/kean/Pulse/commit/687b4faf573a5ed5fb7221af1972e8d8993d6f48) · 版本与许可证见上游仓库。</sub>
 
 ---
 

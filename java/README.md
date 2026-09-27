@@ -4,7 +4,7 @@
 
 同时覆盖 Android 和 JVM 服务端。Android 专项集中在客户端模块；Spring、数据库连接池等按服务端用途阅读。
 
-> Android / JVM 服务端 · 20 个选型入口 · 1 个历史条目 · 核验于 2026-09-27
+> Android / JVM 服务端 · 40 个选型入口 · 1 个历史条目 · 高 Star 37 / 生态补充 3 · 核验于 2026-09-27
 
 ## 按业务模块查找
 
@@ -15,11 +15,17 @@
 | [认证、权限与凭据](authentication.md) | 登录凭据、Token 和服务访问控制 | 1 |
 | [数据库与本地存储](storage.md) | 离线数据、SQL、事务和结构迁移 | 4 |
 | [缓存与 Redis](cache.md) | 本地缓存、Redis 与分布式数据结构 | 2 |
-| [数据模型与序列化](serialization.md) | JSON、二进制数据和类型化模型 | 2 |
-| [通用工具与对象映射](utilities.md) | 集合工具、数据转换和重复代码消除 | 2 |
+| [数据模型与序列化](serialization.md) | JSON、二进制数据和类型化模型 | 4 |
+| [通用工具与对象映射](utilities.md) | 集合工具、数据转换和重复代码消除 | 5 |
 | [容错与服务保护](resilience.md) | 重试、熔断、超时和限流 | 1 |
-| [Android 客户端](android.md) | 传统 View 图片展示和 Rx 事件处理 | 2 |
-| [自动化测试](testing.md) | 测试组织、断言、Mock 和集成验证 | 3 |
+| [Android 客户端](android.md) | 传统 View 图片展示和 Rx 事件处理 | 5 |
+| [自动化测试](testing.md) | 测试组织、断言、Mock 和集成验证 | 6 |
+| [状态管理与依赖注入](architecture.md) | 组织业务状态、事件流和模块依赖 | 1 |
+| [日志、调试与工程质量](tooling.md) | 定位问题、分析性能和统一代码规范 | 3 |
+| [后台任务与并发](jobs.md) | 队列、定时调度和并发控制 | 2 |
+| [微服务与 RPC](microservices.md) | 代码生成、服务治理与跨语言调用 | 1 |
+| [文本与 HTML](text.md) | 富文本、HTML 解析和页面内容展示 | 1 |
+| [文件与文档](files.md) | 文件选择、Excel、PDF 与导入导出 | 1 |
 | [旧项目维护与迁移](legacy.md) | 已归档、已弃用或需重点评估的历史方案 | 1 |
 
 ## 常用路线
